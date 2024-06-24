@@ -57,6 +57,12 @@
 		FA5550A22BEDD4AF00C7648B /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		FA5550A32BEDD4AF00C7648B /* Sentry in Frameworks */ = {isa = PBXBuildFile; productRef = 00571768FCC847B5B370CACD /* Sentry */; };
 		FA5550A52BEDD4CF00C7648B /* AuthScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5550A42BEDD4CF00C7648B /* AuthScreenView.swift */; };
+		FA6140CE2C29422E00424953 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6140CD2C29422E00424953 /* Color+Extensions.swift */; };
+		FA6C0E1B2C27D58900D9F7A2 /* Pads.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6C0E1A2C27D58900D9F7A2 /* Pads.swift */; };
+		FA6C0E1D2C28C8F800D9F7A2 /* PadsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6C0E1C2C28C8F800D9F7A2 /* PadsScreen.swift */; };
+		FA6C0E202C28E79200D9F7A2 /* DefaultPersonas.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6C0E1F2C28E79200D9F7A2 /* DefaultPersonas.swift */; };
+		FA6C0E252C2917BA00D9F7A2 /* digital-7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA6C0E242C2917BA00D9F7A2 /* digital-7.ttf */; };
+		FA6C0E272C29182400D9F7A2 /* UIFont+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6C0E262C29182400D9F7A2 /* UIFont+Extensions.swift */; };
 		FA7944DC2BE6D08C0035EC8B /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7944DB2BE6D08C0035EC8B /* Config.swift */; };
 		FA8DCFA12BEC19B800F54DCA /* ResUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8DCF9E2BEC195B00F54DCA /* ResUITests.swift */; };
 		FA8DCFA22BEC19B800F54DCA /* ResUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8DCF9F2BEC195B00F54DCA /* ResUITestsLaunchTests.swift */; };
@@ -159,6 +165,12 @@
 		FA14AACA2BE80E0B001C7486 /* Config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		FA14AACC2BE84F43001C7486 /* SupabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupabaseManager.swift; sourceTree = "<group>"; };
 		FA5550A42BEDD4CF00C7648B /* AuthScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthScreenView.swift; sourceTree = "<group>"; };
+		FA6140CD2C29422E00424953 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		FA6C0E1A2C27D58900D9F7A2 /* Pads.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pads.swift; sourceTree = "<group>"; };
+		FA6C0E1C2C28C8F800D9F7A2 /* PadsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PadsScreen.swift; sourceTree = "<group>"; };
+		FA6C0E1F2C28E79200D9F7A2 /* DefaultPersonas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultPersonas.swift; sourceTree = "<group>"; };
+		FA6C0E242C2917BA00D9F7A2 /* digital-7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7.ttf"; sourceTree = "<group>"; };
+		FA6C0E262C29182400D9F7A2 /* UIFont+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extensions.swift"; sourceTree = "<group>"; };
 		FA7944D82BE636360035EC8B /* Config.template.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.template.xcconfig; sourceTree = "<group>"; };
 		FA7944DB2BE6D08C0035EC8B /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		FA8DCF9C2BEC194900F54DCA /* ResTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResTests.swift; sourceTree = "<group>"; };
@@ -241,6 +253,8 @@
 		18D289E12B9713FE008742FB /* Res */ = {
 			isa = PBXGroup;
 			children = (
+				FA6C0E212C29113100D9F7A2 /* Resources */,
+				FA6C0E1E2C28E77B00D9F7A2 /* Data */,
 				18D289E22B9713FE008742FB /* ResApp.swift */,
 				B91C79302C011C3E00D45290 /* WaveTest.swift */,
 				F3E72E532BF9ACC6001FB6E4 /* Skins */,
@@ -291,6 +305,7 @@
 				F3B5AB192BACE488009CDBB5 /* XMarkButton.swift */,
 				F3B5AB242BAE91E3009CDBB5 /* CustomLinkView.swift */,
 				F31C494A2BC37C080075477D /* Loader.swift */,
+				FA6C0E1A2C27D58900D9F7A2 /* Pads.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -308,6 +323,8 @@
 			children = (
 				1849A5462BBDD68A00A4BCF1 /* UIScreen+Extensions.swift */,
 				F3B5AB202BAD08F1009CDBB5 /* AnimationUtility.swift */,
+				FA6C0E262C29182400D9F7A2 /* UIFont+Extensions.swift */,
+				FA6140CD2C29422E00424953 /* Color+Extensions.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -348,6 +365,7 @@
 				F3E72E4D2BF96240001FB6E4 /* CustomTextPromptTeView.swift */,
 				F3E72E4B2BF9620B001FB6E4 /* VoiceTypeAndToneTeView.swift */,
 				F3E72E492BF961B6001FB6E4 /* VoiceTypeAndToneSettingsTeView.swift */,
+				FA6C0E1C2C28C8F800D9F7A2 /* PadsScreen.swift */,
 			);
 			path = TeenageEng;
 			sourceTree = "<group>";
@@ -371,6 +389,22 @@
 				F3E72E452BF95FA6001FB6E4 /* MainViewTeenageEng.swift */,
 			);
 			path = Skins;
+			sourceTree = "<group>";
+		};
+		FA6C0E1E2C28E77B00D9F7A2 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FA6C0E1F2C28E79200D9F7A2 /* DefaultPersonas.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		FA6C0E212C29113100D9F7A2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FA6C0E242C2917BA00D9F7A2 /* digital-7.ttf */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		FA8DCF9D2BEC194900F54DCA /* ResTests */ = {
@@ -539,6 +573,7 @@
 				B976AF672BF438CE0014196F /* dial.up.sound.mp3 in Resources */,
 				18D289E72B9713FF008742FB /* Assets.xcassets in Resources */,
 				F31C74F72C1A3A47009023D6 /* res_unboxing.riv in Resources */,
+				FA6C0E252C2917BA00D9F7A2 /* digital-7.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -594,6 +629,7 @@
 				1849A5472BBDD68A00A4BCF1 /* UIScreen+Extensions.swift in Sources */,
 				18D289E52B9713FE008742FB /* MainViewClassic.swift in Sources */,
 				F3E72E522BF9632A001FB6E4 /* AppSettingsTeView.swift in Sources */,
+				FA6140CE2C29422E00424953 /* Color+Extensions.swift in Sources */,
 				F3E72E4C2BF9620B001FB6E4 /* VoiceTypeAndToneTeView.swift in Sources */,
 				F31C74ED2C17483D009023D6 /* CustomizationView.swift in Sources */,
 				F3E72E4A2BF961B6001FB6E4 /* VoiceTypeAndToneSettingsTeView.swift in Sources */,
@@ -603,8 +639,10 @@
 				F31C49412BBE75C70075477D /* VoiceSettingsView.swift in Sources */,
 				18D289E32B9713FE008742FB /* ResApp.swift in Sources */,
 				F3B5AB1E2BAD062D009CDBB5 /* AppSettingsView.swift in Sources */,
+				FA6C0E1B2C27D58900D9F7A2 /* Pads.swift in Sources */,
 				FA5550A52BEDD4CF00C7648B /* AuthScreenView.swift in Sources */,
 				FA14AACD2BE84F43001C7486 /* SupabaseManager.swift in Sources */,
+				FA6C0E202C28E79200D9F7A2 /* DefaultPersonas.swift in Sources */,
 				1849A54A2BBDD6FF00A4BCF1 /* LockScreenWidgetGuideView.swift in Sources */,
 				F3E72E4E2BF96240001FB6E4 /* CustomTextPromptTeView.swift in Sources */,
 				F3B5AB1A2BACE488009CDBB5 /* XMarkButton.swift in Sources */,
@@ -615,6 +653,8 @@
 				F3B5AB252BAE91E3009CDBB5 /* CustomLinkView.swift in Sources */,
 				FA7944DC2BE6D08C0035EC8B /* Config.swift in Sources */,
 				F3B4EC5E2C1238F0000B80EF /* OnboardingAnimation.swift in Sources */,
+				FA6C0E272C29182400D9F7A2 /* UIFont+Extensions.swift in Sources */,
+				FA6C0E1D2C28C8F800D9F7A2 /* PadsScreen.swift in Sources */,
 				F31C49492BC111180075477D /* VoiceTypeAndToneSettingsView.swift in Sources */,
 				F31C49452BBF86950075477D /* VoiceTypeAndToneView.swift in Sources */,
 				B91C79312C011C3E00D45290 /* WaveTest.swift in Sources */,
